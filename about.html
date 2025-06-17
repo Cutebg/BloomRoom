@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Pacifico"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <title>BloomRoom</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <nav class="navbar">
+        <div class="topleft">
+          <img src="img/logo.PNG" alt="logo" class="logo" />
+        </div>
+
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Welcome</a>
+          </li>
+          <li class="nav-item">
+            <a href="products.html" class="nav-link">Products</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About </a>
+          </li>
+          <li class="nav-item">
+            <a href="blog.html" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="faqs.html" class="nav-link">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a href="orders.html" class="nav-link">Orders</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- SECTIONS -->
+    <section id="main">
+      <h1>Bloom Room</h1>
+      <h2>We will deliver your emotions!</h2>
+    </section>
+   
+    <section id="about">
+        <div class="imgabout">
+      <img src="img/pic12.jpg" alt="flowers" /></div>
+      <h2>Our story</h2>
+      <p>
+        <br>Bloom Room has developed a unique visual language unparalleled in the
+        floral industry. Our partnerships with various producers across <br>the
+        country enable us to offer a variety and quantity of flowers that cannot
+        be found anywhere else in the Tampa Bay area. Our distinctive style <br> has
+        garnered local and national recognition. We constantly expand our
+        creative range, and our seasonal blooming flowers always evoke a <br>sense
+        of being freshly picked from the garden. Thanks to our horticulturists
+        and landscape architects, Bloom Room is like a magical garden, capable <br>
+        of transforming any space into a naturalistic fairytale with their keen
+        sense of color and combination. We understand that flowers are not just <br>
+        gifts; they require special handling as they are sensitive to time and
+        place. Our mission is to ensure unparalleled quality and style that <br>
+        touches the heart of each client and leaves a lasting impression. 
+      </p><br>
+      <div class="imgabout">
+      <img src="img/pic9.jpg" alt="flowers" /></div>
+    </section>
+
+    
+
+    <script src="script.js"></script>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <a href="mailto:mayakarb@icloud.com" class="footer__link">Email us</a>
+
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://facebook.com">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="http://fa-youtube.com">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://twitter.com">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://instagram.com">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+
+      <p>Today's Date:</p>
+      <p id="date"></p>
+      <p>&copy;2024/Bloom Room/All Rights reserved</p>
+      <script>
+        document.querySelector("#date").innerHTML = new Date().toLocaleString();
+      </script>
+      <script src="index.js"></script>
+    </footer>
+  </body>
+</html>

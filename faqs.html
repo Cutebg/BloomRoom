@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
+    <link href="style.css" rel="stylesheet">
+    <title>BloomRoom</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+          integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+  </head>
+<body>
+<!-- HEADER -->
+<header>       
+  <nav class="navbar">
+           <div class="topleft">
+                <img src="img/logo.PNG" alt="logo" class="logo">
+            </div>
+
+    <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">Welcome</a>
+        </li>
+        <li class="nav-item">
+           <a href="products.html" class="nav-link">Products</a>
+         </li>
+         <li class="nav-item">
+           <a href="about.html" class="nav-link">About </a>
+         </li>
+         <li class="nav-item">
+             <a href="blog.html" class="nav-link">Blog</a>
+         </li>
+         <li class="nav-item">
+            <a href="FAQs.html" class="nav-link">FAQs</a>
+         </li>
+         <li class="nav-item">
+             <a href="orders.html" class="nav-link">Orders</a>
+         </li>
+   </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+   </nav>  
+</header> 
+
+<!-- MAIN -->
+<!-- SECTIONS -->
+<section id="main">
+    <h1>Bloom Room</h1>
+   
+</section>
+
+<section id="faqs">    
+  <h2>FREQUENTLY ASKED QUESTIONS</h2>
+      <br><p>
+        Here you can find answers to some of the most frequently asked questions. 
+        If you do not find the answer you are interested in, do not hesitate to 
+        contact us via our provited contact platforms. <br>
+         
+        1. How to order? <br>
+       * You can place an order by selecting products from the page and add them in the order form. 
+         Register (or login with your username and password if you 
+         are already a registered customer) or place an order without registering on our 
+         site. Enter all contact details and check them to make sure that everything is 
+         correct. In the "Comment" field, you can write the text to the order(if you ordered 
+         one) or other specific request of yours, and we will do our best to satisfy it.
+        After a successfully carried out order, we will confirm your purchase by phone call. <br>
+         
+        2. Where do you deliver? <br>
+           * Bloom Room execute orders on the territory of Tampa Bay area in Florida.
+        Deliveries are performed by private couriers of the store, which guarantees 
+        accuracy, reliability and excellent quality of the product delivered. <br>
+       
+        3. How much will my delivery cost? <br>            
+        * Bloom Room has free shipping on all online orders on the
+         territory of Tampa Bay area. <br>             
+        
+         4. How can I check the status of my order?  <br>          
+        * You can track the status of your order only if you are a registered user 
+        of the Bloom Room. You need to log in to your account using
+         a username and password, and in the "Orders" section from your profile you 
+         can access information for each order you have made as a registered user. 
+        
+         There are five types of status of your order: <br>
+        
+         1. Pending order - your order has been placed successfully and you can expect
+         us to contact you (by phone) for its confirmation. <br>
+       
+         2. Confirmed order - your order has been placed successfully and then we have 
+        contacted you for confirmation. <br>
+        
+        3. Paid order - your order has been placed successfully, then we have contacted
+         you for confirmation and we have received the payment (except for when you choose 
+         payment method "Upon delivery"). After this stage, you can be sure that our team of
+          professionals takes immediately on with the perfect execution of your order. <br>
+       
+          4. Sent order - your order is sent and together we have made the day of your relative
+         or acquaintance wonderful. <br>
+        
+         5. Refused order - your order is canceled successfully. 
+     </p> <br>
+</section>
+
+<script src="script.js"></script>
+
+<!-- FOOTER --> 
+    <footer class="footer">
+        <a href="mailto:mayakarb@icloud.com"
+           class="footer__link">Email us</a>
+    
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://facebook.com">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="http://fa-youtube.com">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://twitter.com">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://instagram.com">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+         
+         <p>Today's Date:</p>         
+         <p id="date"></p>
+         <p>&copy;2024/Bloom Room/All Rights reserved</p>                       
+         <script> document.querySelector('#date').innerHTML=new Date().toLocaleString();</script>
+         <script src="index.js"></script>
+                   
+        </footer>
+     </body>
+ </html>
+    
+    
